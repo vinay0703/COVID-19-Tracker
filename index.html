@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>COVID-19 | Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>COVID-19 TRACKER</h1>
+    </header>
+    <div class="jumbotron">
+        <h1 class="display-4"></h1>
+        <p class="lead" style="font-weight: bolder;">Total number of Cases Worldwide.</p>
+        <hr class="my-4">
+        <p>More Details Wordlwide.</p>
+        <table cellpaddin=5px>
+            <tr>
+                <td style="font-weight: bolder;">Recovered</td>
+                <td class="wr"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Deaths</td>
+                <td class="wd"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Critical</td>
+                <td class="wc"></td>
+            </tr>
+        </table>
+      </div>
+    <h3 style="margin-bottom: 3%;">Country Wise Details Availaible Below!</h3>
+    <select name="countries" id="" style="margin-bottom: 3%;">
+        <option value="sc">Select Country</option>
+    </select>
+    <button class="btn btn-Success">Get Details</button>
+    <button type="button" class="btn btn-primary">Click For INDIA</button>
+    <h1 class="cnt"></h1>
+    <div class="cdet">
+        <table class="table table-striped">
+            <thead class="head">
+                <tr>
+                  <th class="frind1" scope="col" style="display: none;">State</th> 
+                  <th scope="col">Confirmed</th>
+                  <th scope="col">Active</th>
+                  <th scope="col">Recovered</th>
+                  <th scope="col">Deaths</th>
+                  <th scope="col">Critical</th>
+                </tr>
+              </thead>
+              <tbody class="det">
+                
+            </tbody>
+        </table>
+
+    </div>
+    <!-- <footer style="margin-top: 5%; text-align: center;">
+        <p>Made in Hyderabad</p>
+    </footer> -->
+</body>
+<script src="index.js"></script>
+</html>

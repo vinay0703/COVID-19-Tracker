@@ -1,0 +1,30 @@
+body{
+    padding: 3% 5% 3% 5%;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.cdet{
+    border: 1px solid;
+}
+.head{
+    border-bottom: 1px solid #dee2e6;
+}
+.btn-primary{
+    margin-left: 3%;
+}
+.btn-Success{
+    display: none;
+}
+@media screen and (max-width: 700px)
+{
+   
+    .btn-Success{
+        display: inline-block;
+    }
+    .cdet{
+        border: 0px;
+    }
+}
